@@ -69,5 +69,5 @@ variable "blob_storage_cors_origins" {
 variable "env" {
   description = "Defines the enviorment"
   type        = string
-  default     = "dev"
+  default     = "-dev"
 }
